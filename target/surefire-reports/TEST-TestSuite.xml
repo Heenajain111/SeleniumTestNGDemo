@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="50.354" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre-9.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\DemoWorkspace\com.servlet.demo"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\DemoWorkspace\com.servlet.demo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHREYA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\DemoWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf18001993780458566066.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre-9.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-9.0.1\bin;%M2_HOME%\bin;C:\Program Files\PuTTY\;D:\apache-tomcat-7.0.84\bin;C:\Ruby25-x64\bin;C:\Users\Shreyans Jain\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Shreyans Jain"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="Shreyans Jain"/>
+    <property name="java.class.path" value="D:\softwares\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jre-9.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\DemoWorkspace\com.servlet.demo\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.servlet.demo.NewTest" name="beforeTest" time="50.354">
+    <failure message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+91143	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1518442091144	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1518442091146	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1518442091146	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1518442091147	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1518442091231	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1518442091231	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1518442091236	addons.xpi-utils	DEBUG	Successfully read XPI database
+1518442094831	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1518442094832	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1518442094833	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 25.0.0
+1518442094840	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1518442094841	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.01.04.0062-4997c81d
+Unable to read VR Path Registry from C:\Users\Shreyans Jain\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518442095007	addons.manager	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1518442095007	addons.xpi	DEBUG	shutdown
+1518442095007	addons.xpi-utils	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1518442095014	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-V0FSRTB&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+91143	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1518442091144	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1518442091146	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1518442091146	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1518442091147	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1518442091231	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1518442091231	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1518442091236	addons.xpi-utils	DEBUG	Successfully read XPI database
+1518442094831	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1518442094832	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1518442094833	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 25.0.0
+1518442094840	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1518442094841	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.01.04.0062-4997c81d
+Unable to read VR Path Registry from C:\Users\Shreyans Jain\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518442095007	addons.manager	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1518442095007	addons.xpi	DEBUG	shutdown
+1518442095007	addons.xpi-utils	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1518442095014	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DESKTOP-V0FSRTB&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.servlet.demo.NewTest.beforeTest(NewTest.java:25)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+91143	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1518442091144	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1518442091146	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1518442091146	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1518442091147	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1518442091231	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1518442091231	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1518442091236	addons.xpi-utils	DEBUG	Successfully read XPI database
+1518442094831	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1518442094832	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1518442094833	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 25.0.0
+1518442094840	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1518442094841	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.01.04.0062-4997c81d
+Unable to read VR Path Registry from C:\Users\Shreyans Jain\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518442095007	addons.manager	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1518442095007	addons.xpi	DEBUG	shutdown
+1518442095007	addons.xpi-utils	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1518442095014	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 38 more
+</failure>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+91143	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1518442091143	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1518442091144	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1518442091144	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1518442091145	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1518442091146	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1518442091146	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1518442091147	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1518442091231	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1518442091231	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1518442091236	addons.xpi-utils	DEBUG	Successfully read XPI database
+1518442094831	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1518442094832	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 76.1
+1518442094833	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 25.0.0
+1518442094840	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1518442094841	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.6
+1518442094842	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1518442094843	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.01.04.0062-4997c81d
+Unable to read VR Path Registry from C:\Users\Shreyans Jain\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518442095007	addons.manager	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1518442095007	addons.xpi	DEBUG	shutdown
+1518442095007	addons.xpi-utils	DEBUG	shutdown
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1518442095007	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1518442095008	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1518442095014	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.servlet.demo.NewTest.beforeTest(NewTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+</system-err>
+  </testcase>
+  <testcase classname="com.servlet.demo.NewTest" name="testEasy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.servlet.demo.NewTest" name="afterTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
