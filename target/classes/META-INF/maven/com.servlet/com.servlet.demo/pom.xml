@@ -4,7 +4,7 @@
 	<groupId>com.servlet</groupId>
 	<artifactId>com.servlet.demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ServletExample</name>
+	<name>NewTest</name>
 
 	<dependencies>
 		<dependency>
