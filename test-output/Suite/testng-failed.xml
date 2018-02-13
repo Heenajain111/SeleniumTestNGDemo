@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.servlet.demo.ExtentReportListner"/>
+  </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.servlet.demo.NewTest">
+      <class name="com.servlet.demo.AmazonTest">
         <methods>
-          <include name="testEasy"/>
-          <include name="beforeTest"/>
+          <include name="testUntitledTestCase"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.servlet.demo.NewTest -->
+      </class> <!-- com.servlet.demo.AmazonTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,24 +1,22 @@
 package com.servlet.demo;
 
-import org.openqa.selenium.By;		
+
 import org.openqa.selenium.WebDriver;		
 import org.openqa.selenium.firefox.FirefoxDriver;		
-import org.testng.Assert;		
-import org.testng.annotations.Test;	
-import org.testng.annotations.BeforeTest;	
-import org.testng.annotations.AfterTest;
-
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterTest;
 
 public class NewTest {
-	 private WebDriver driver;		
-		@Test				
+	
+	public static void main(String[] args) {
+		
+	 System.setProperty("webdriver.gecko.driver", "D:\\softwares\\geckodriver.exe");
+	 
+	 WebDriver driver =new FirefoxDriver();
+	 
+		/*@Test				
 		public void testEasy() {	
 			driver.get("http://demo.guru99.com/test/guru99home/");  
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
+			AssertJUnit.assertTrue(title.contains("Demo Guru99 Page")); 		
 		}	
 		@BeforeTest
 		public void beforeTest() {	
@@ -28,5 +26,6 @@ public class NewTest {
 		public void afterTest() {
 			driver.quit();			
 		}
-
+*/ 
+	}
 }

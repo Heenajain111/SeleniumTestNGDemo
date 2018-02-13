@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 11 19:09:23 GMT 2018</td>
+<td>Started on:</td><td>Mon Feb 12 17:53:24 GMT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49068 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15041 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,146 +75,42 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.servlet.demo.NewTest.beforeTest()'><b>beforeTest</b><br>Test class: com.servlet.demo.NewTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-167642	addons.manager	DEBUG	Starting provider: PluginProvider
-1518376167642	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518376167643	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518376167643	addons.manager	DEBUG	Completed startup sequence
-1518376167786	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-*** Blocklist::_preloadBlocklistFile: blocklist is disabled
-1518376168620	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions.json
-1518376168657	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\fxdriver@googlecode.com
-1518376168658	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\webdriver-staging
-1518376168658	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
-1518376168658	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1518376168658	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
-1518376168659	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
-1518376168659	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1518376168659	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1518376168662	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1518376168663	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1518376168663	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1518376168663	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-1518376168747	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1518376168747	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1518376168752	addons.xpi-utils	DEBUG	Successfully read XPI database
-
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+<td title='com.servlet.demo.AmazonTest.tearDown()'><b>tearDown</b><br>Test class: com.servlet.demo.AmazonTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-V0FSRTB&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
-	at com.servlet.demo.NewTest.beforeTest(NewTest.java:25)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-167642	addons.manager	DEBUG	Starting provider: PluginProvider
-1518376167642	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518376167643	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518376167643	addons.manager	DEBUG	Completed startup sequence
-1518376167786	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-*** Blocklist::_preloadBlocklistFile: blocklist is disabled
-1518376168620	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions.json
-1518376168657	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\fxdriver@googlecode.com
-1518376168658	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\webdriver-staging
-1518376168658	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
-1518376168658	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1518376168658	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
-1518376168659	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
-1518376168659	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1518376168659	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1518376168662	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1518376168663	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1518376168663	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1518376168663	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-1518376168747	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1518376168747	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1518376168752	addons.xpi-utils	DEBUG	Successfully read XPI database
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
-	... 29 more
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1658511941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1658511941'><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-167642	addons.manager	DEBUG	Starting provider: PluginProvider
-1518376167642	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518376167643	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518376167643	addons.manager	DEBUG	Completed startup sequence
-1518376167786	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-*** Blocklist::_preloadBlocklistFile: blocklist is disabled
-1518376168620	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions.json
-1518376168657	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\fxdriver@googlecode.com
-1518376168658	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\webdriver-staging
-1518376168658	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
-1518376168658	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1518376168658	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
-1518376168659	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
-1518376168659	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1518376168659	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1518376168662	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1518376168663	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1518376168663	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1518376168663	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-1518376168747	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1518376168747	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1518376168752	addons.xpi-utils	DEBUG	Successfully read XPI database
-
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Shreyans Jain\AppData\Local\Temp\rust_mozprofile.THJyDTFEmp9g, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=10.0, moz:processID=10524.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=true}]
+Session ID: 12f3d958-7a07-4dcb-87d2-9b329898b4ee
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+	at com.servlet.demo.AmazonTest.tearDown(AmazonTest.java:38)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1713605602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1713605602'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;DESKTOP-V0FSRTB&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
-	at com.servlet.demo.NewTest.beforeTest(NewTest.java:25)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Shreyans Jain\AppData\Local\Temp\rust_mozprofile.THJyDTFEmp9g, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=10.0, moz:processID=10524.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=true}]
+Session ID: 12f3d958-7a07-4dcb-87d2-9b329898b4ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+	at com.servlet.demo.AmazonTest.tearDown(AmazonTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -223,8 +119,10 @@ Driver info: driver.version: FirefoxDriver
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
-	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
@@ -237,75 +135,87 @@ Driver info: driver.version: FirefoxDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-167642	addons.manager	DEBUG	Starting provider: PluginProvider
-1518376167642	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518376167643	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518376167643	addons.manager	DEBUG	Completed startup sequence
-1518376167786	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518376167786	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-*** Blocklist::_preloadBlocklistFile: blocklist is disabled
-1518376168620	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions.json
-1518376168657	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\fxdriver@googlecode.com
-1518376168658	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Shreyans Jain\AppData\Local\Temp\anonymous10264595181467574151webdriver-profile\extensions\webdriver-staging
-1518376168658	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
-1518376168658	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
-1518376168658	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
-1518376168658	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
-1518376168659	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
-1518376168659	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
-1518376168659	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1518376168659	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1518376168660	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1518376168661	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1518376168662	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1518376168663	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1518376168663	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1518376168663	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-1518376168747	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1518376168747	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1518376168752	addons.xpi-utils	DEBUG	Successfully read XPI database
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
-	... 29 more
 </pre></div></td>
 <td>0</td>
-<td>null</td></tr>
+<td>com.servlet.demo.AmazonTest@68e965f5</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.servlet.demo.NewTest.afterTest()'><b>afterTest</b><br>Test class: com.servlet.demo.NewTest</td>
-<td></td>
-<td>0</td>
-<td>null</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.servlet.demo.NewTest.testEasy()'><b>testEasy</b><br>Test class: com.servlet.demo.NewTest</td>
-<td></td>
-<td>0</td>
-<td>com.servlet.demo.NewTest@4e3958e7</td></tr>
+<td title='com.servlet.demo.AmazonTest.testUntitledTestCase()'><b>testUntitledTestCase</b><br>Test class: com.servlet.demo.AmazonTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-V0FSRTB&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Shreyans Jain\AppData\Local\Temp\rust_mozprofile.THJyDTFEmp9g, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=10.0, moz:processID=10524.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=true}]
+Session ID: 12f3d958-7a07-4dcb-87d2-9b329898b4ee
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Furniture&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.servlet.demo.AmazonTest.testUntitledTestCase(AmazonTest.java:30)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace855547146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace855547146'><pre>org.openqa.selenium.WebDriverException: Failed to find value field
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-V0FSRTB&apos;, ip: &apos;192.168.1.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Shreyans Jain\AppData\Local\Temp\rust_mozprofile.THJyDTFEmp9g, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=10.0, moz:processID=10524.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=true}]
+Session ID: 12f3d958-7a07-4dcb-87d2-9b329898b4ee
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Furniture&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.servlet.demo.AmazonTest.testUntitledTestCase(AmazonTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.servlet.demo.AmazonTest@68e965f5</td></tr>
 </table><p>
 </body>
 </html>
